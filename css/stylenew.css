@@ -28,7 +28,6 @@ header {
   width: 100%;
   color: #111035;
   font-family: poppins;
-  display: flex;
   justify-content: space-between;
   vertical-align: middle;
 }
@@ -36,6 +35,7 @@ header {
 .righttNav {
   float: right;
 }
+
 .rightNav ul {
   font-size: 18px;
   list-style-type: none;
