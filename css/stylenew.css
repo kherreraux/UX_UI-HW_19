@@ -32,7 +32,7 @@ header {
   vertical-align: middle;
 }
 
-.righttNav {
+.rightNav {
   float: right;
 }
 
@@ -45,7 +45,8 @@ header {
 .rightNav li {
   cursor: pointer;
   display: inline-block;
-  padding: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-weight: 600px;
 }
 .rightNav li:hover {
@@ -198,6 +199,7 @@ button:hover {
   width: 322px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .sideBySide {
   display: flex;
   flex-direction: row;
@@ -260,6 +262,23 @@ button:hover {
   margin: 32px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.project:hover {
+  background-color: #111035;
+  margin: 32px;
+  font-size: 18px;
+  font-family: poppins;
+  font-weight: 900;
+}
+.project:hover h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 0px;
+  font-family: anton;
+  letter-spacing: 6px;
+}
+
 .text {
   padding: 16px;
   margin: 16px;
@@ -277,7 +296,9 @@ button:hover {
   font-size: 36px;
   padding: 0px;
   font-family: anton;
+  letter-spacing: 6px;
 }
+
 .project h4 {
   color: #ff6f00;
   font-weight: bold;
