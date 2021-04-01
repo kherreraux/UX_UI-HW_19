@@ -67,9 +67,12 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-items: center;
   align-items: center;
+  text-align: center;
 }
+
 .content {
   width: 500px;
   margin: 0;
@@ -276,7 +279,7 @@ button:hover {
   font-size: 36px;
   padding: 0px;
   font-family: anton;
-  letter-spacing: 6px;
+  letter-spacing: 8px;
 }
 
 .text {
@@ -296,7 +299,7 @@ button:hover {
   font-size: 36px;
   padding: 0px;
   font-family: anton;
-  letter-spacing: 6px;
+  letter-spacing: 8px;
 }
 
 .project h4 {
