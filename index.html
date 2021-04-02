@@ -12,15 +12,18 @@
 
 <body>
 <!--The following is part of the header and navigation section-->
-<header>
-    <div class= "sideBySide leftNav"><img class="logo" src="images/Logo.svg">
-        <h1>Karla Herrera</h1></div>
-    <nav class= "inline-block ">
+<header id="pageTop">
+    <div class= "sideBySide leftNav">
+        <img class="logo" src="images/Logo.svg">
+        <h1>Karla Herrera</h1>
+    </div>
+    <nav class= "inline-block">
        <div class="rightNav">
             <h1>
                 <ul>
-                    <li>About</li>
-                    <li>Work</li>
+                    <li><a href="#aboutSection">About</a></li>
+                    <li><a href="#skillsSection">Skills</a></li>
+                    <li><a href="#myWork">Work</a></li>
                     <li>Contact</li>
                 </ul>
             </h1>
@@ -43,7 +46,7 @@
     </div>
 </section>
 <!--The following is part of the About & Skills-->
-<section class="about_skills">
+<section id="aboutSection">
 
   <!--The following is part of the About Only--> 
     <div class="about flexContainer sideBySide">
@@ -58,7 +61,7 @@
    <!--The following is part of the Skills Only
     MY UX Skills Section coded using CSS flex-->
 
-<section class="mySkills">
+<section id="skillsSection" class="mySkills">
     <h1>My Skills</h1>
     <div class="sideBySide">
         <div class="skillsCard">
@@ -112,7 +115,7 @@
 
 <!--The following is part of the main content section-->
 
-<section class="myWork">
+<section id="myWork">
     <h1 id="section_title">Case Studies</h1>
     <div class="workGrid">
         <div class="project sideBySide">
@@ -123,7 +126,7 @@
                 <h1>01</h1>
                 <h4>Allons-y</h4>
                 <p>Travel App</p>
-                <button>View Project</button>
+                <button><a href= "C:\Users\kamih\Documents\00-My Code\Homework _20\UX_UI-HW_20\index.html">View Project</a></button>
             </div>   
         </div>
         <div class="project sideBySide">
@@ -160,15 +163,15 @@
         </div>
     </div>
     <h3>View all projects</h3>
-    <h3>^  Back To Top  ^</h3>
+    <h3><a href="#pageTop">Back To Top</a></h3>
 </section>
 
 <!--The following is part of the footer section-->
     <footer class="inline-block">
         <ul>
-            <li>About</li>
-            <li>Work</li>
-            <li>Resume</li>
+            <li><a href="#aboutSection">About</a></li>
+            <li><a href="#skillsSection">Skills</a></li>
+            <li><a href="#myWork">Work</a></li>
             <li>Contact</li>
         </ul>
         <h1>Thanks for stopping by!</h1>
